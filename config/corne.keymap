@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
- 
+
 // my first edit
 
 #include <behaviors.dtsi>
@@ -93,10 +93,10 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y  &kp U             &kp I          &kp O            &kp P               &kp BSPC
-&kp LCTRL  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G        &kp H  &hm RSHIFT J      &hm RCTRL K    &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N  &kp M             &kp COMMA      &kp DOT          &kp FSLH            &kp ESC
-                                           &kp TAB      &lt 1 SPACE       &lt 2 ENTER  &mo 3  &ltq 2 BACKSPACE  &kp BACKSPACE
+&kp LEFT_ARROW &mt RIGHT Q     &mt LG(UP) W    &mt LG(LEFT) F       &mt LG(RIGHT) R   &kp G             &kp Y          &kp U             &kp I          &kp O            &kp LG(SPACE)           &kp UP_ARROW
+&kp LG(ENTER)  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D          &hm LEFT_SHIFT T  &kp J             &kp H          &hm RSHIFT N      &hm RCTRL E    &hm RIGHT_ALT L  &hm RGUI P              &kp DOWN_ARROW
+&kp LC(Z)      &kp Z           &kp X           &kp C                &lt; 3 V          &kp B             &kp K          &lt; 2 M          &trans         &kp QUESTION     &mt SEMICOLON ASTRK     &kp ESC
+                                               &kp LS(ENTER)        &sl 1             &mt LSHIFT ENTER  &kp BACKSPACE  &kp SPACE         &kp TAB
             >;
         };
 
