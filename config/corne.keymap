@@ -41,12 +41,12 @@
     macros {
         three_quotes: three_quotes {
             compatible = "zmk,behavior-macro";
-            #binding-cells = ;
+            #binding-cells = <0>;
             bindings = <&kp SQT &kp SQT &kp SQT>;
         };
        two_dash: two_dash {
             compatible = "zmk,behavior-macro";
-            #binding-cells = ;
+            #binding-cells = <0>;
             bindings = <&kp MINUS &kp MINUS>;
         };
     };
