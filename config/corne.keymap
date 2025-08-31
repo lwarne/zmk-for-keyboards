@@ -115,9 +115,9 @@
 
         symbol_layer_1 {
             bindings = <
-&trans      &kp TILDE  &kp AT_SIGN  &kp LBKT  &kp RBKT  &kp PIPE            &trans            &kp PLUS          &kp MINUS     &kp SLASH  &kp BSLH   &trans
-&trans      &kp HASH   &kp PERCENT  &kp LPAR  &kp RPAR  &kp EQUAL           &kp EXCLAMATION   &kp COMMA         &kp PERIOD  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &three_quotes
-&trans      &kp DOLLAR &kp CARET    &kp LBRC  &kp RBRC  &trans              &kp AMPERSAND     &two_dash         &kp LESS_THAN     &kp GREATER_THAN  &kp COLON   &trans
+&trans      &kp TILDE  &kp AT_SIGN  &kp LBKT  &kp RBKT  &kp PIPE            &trans            &kp PLUS          &kp MINUS     &kp SLASH          &kp BSLH          &trans
+&trans      &kp HASH   &kp PERCENT  &kp LPAR  &kp RPAR  &kp EQUAL           &kp EXCLAMATION   &kp COMMA         &kp PERIOD    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &three_quotes
+&trans      &kp DOLLAR &kp CARET    &kp LBRC  &kp RBRC  &trans              &kp AMPERSAND     &two_dash         &kp LESS_THAN &kp GREATER_THAN   &kp COLON         &trans
                                     &kp LC(C) &kp LC(C) &kp LC(V)           &trans            &kp UNDERSCORE    &trans
             >;
         };
@@ -130,7 +130,7 @@
 &trans  &trans             &trans           &kp LC(PLUS)  &kp LC(minus)       &kp KP_NUMBER_0          &kp LC(SLASH)      &kp LC(LBKT)    &kp LC(LBKT)    &trans           &trans           &trans
 &trans  &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5          &kp KP_NUMBER_6    &kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9  &kp KP_NUMBER_0  &trans
 &trans  &kp KP_NUMBER_6    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0          &trans             &trans          &trans          &trans           &trans           &trans
-                                     &trans           &trans           &trans           &trans    &trans    &trans
+                                            &trans           &trans           &trans                   &trans             &trans          &trans
             >;
         };
 
